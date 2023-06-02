@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fdf8f2;
+  font-family: "Lato";
+  color: #303044;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat Alternates";
+}
+
+.img-container img {
+  width: 200px;
+}
+
+/* >> NavBar << */
+nav {
+  background-color: #fdf8f2;
+  padding: 10px;
+}
+.top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.bottom-row a {
+  text-decoration: none;
+  color: #303044;
+}
+.bottom-row a:hover {
+  color: #9b7f6f;
+}
+
+/* >> HERO SECTION << */
+.hero {
+  height: 350px;
+  background-image: url(makeup2.jpg);
+  background-position: 30% 70%;
+  background-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf8f2c8;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+}
+.hero h2 {
+  font-size: 2.5em;
+  text-shadow: 0 0 4px white;
+  text-align: center;
+}
+.hero input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.753);
+  border-radius: 5px;
+  font-family: "Lato";
+  margin-bottom: 10px;
+}
+
+/* >> MAIN << */
+main {
+  display: flex;
+  justify-content: center;
+}
+.main-content {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 60%;
+  gap: 50px;
+}
+.catg-title {
+  border-right: 2px solid rgba(128, 128, 128, 0.753);
+  color: rgb(109, 109, 109);
+}
+.question-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(128, 128, 128, 0.753);
+  border-radius: 5px;
+  padding: 10px 10px 10px 5px;
+  cursor: pointer;
+}
+.catg-questions p {
+  text-align: justify;
+  padding: 0 8px;
+  margin-top: 10px;
+}
+
+/* >> MISCS << */
+.hide {
+  display: none;
+}
+i {
+    color: #9b7f6f;
+}
+.question-sec .question-bar:not(:first-child) {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .bottom-row a {
+    font-size: 0.8em;
+  }
+  .hero {
+    height: 250px;
+    background-image: url(makeup2.jpg);
+    background-position: 40% 70%;
+    background-size: 250%;
+  }
+  .hero .wrapper {
+    margin: 20px;
+  }
+  .hero h2 {
+    font-size: 1.3em;
+  }
+  .hero input[type="text"] {
+    width: 300px;
+  }
+  .main-content {
+    grid-template-columns: 1fr;
+    width: 80%;
+    gap: 20px;
+  }
+  .catg-title {
+    border-right: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.753);
+  }
+
+  .catg-title:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .main-content {
+    width: 70%;
+  }
+}
