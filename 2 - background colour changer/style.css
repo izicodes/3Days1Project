@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Monomaniac One", sans-serif;
+}
+.colour-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 2.5em;
+  letter-spacing: 1.5px;
+}
+
+/* TOP BAR */
+.top-bar,
+.bottom-bar {
+  display: flex;
+}
+
+.top-bar .center {
+  width: 100%;
+  background-color: #f7af9d;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border: 2px solid grey;
+  border-top: none;
+}
+
+.top-bar p {
+  font-size: 1.2em;
+}
+
+/* CENTER BAR */
+.center-text {
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  letter-spacing: 3px;
+}
+
+/* BOTTOM BAR */
+.bottom-bar .center {
+  width: 100%;
+  background-color: #f7af9d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 20px 30px 20px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border: 2px solid grey;
+  border-bottom: none;
+}
+
+/* Colour Buttons */
+.group-colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.group-colors button {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.group-colors button:hover,
+.group-colors button:active,
+.group-colors button:focus {
+  box-shadow: 2px 2px rgb(111, 111, 111);
+}
+#pink {
+  background-color: #ff99c8;
+}
+#softYellow {
+  background-color: #fcf6bd;
+}
+#limeGreen {
+  background-color: #d0f4de;
+}
+#softBlue {
+  background-color: #a9def9;
+}
+#softViolet {
+  background-color: #e4c1f9;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .colour-container {
+    width: 90%;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .top-bar p {
+    font-size: 1.1em;
+  }
+  .top-bar .center {
+    padding: 0 10px 20px 10px;
+  }
+  .group-colors button {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+  h2 {
+    font-size: 1.8em;
+  }
+  .top-bar p {
+    font-size: 1.1em;
+  }
+  .top-bar .center {
+    padding: 0 15px 20px 15px;
+  }
+  .group-colors button {
+    height: 35px;
+    width: 35px;
+  }
+  .bottom-bar .center {
+    padding: 3px 3px 20px 5px;
+  }
+}
