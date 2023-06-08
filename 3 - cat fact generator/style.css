@@ -1,0 +1,155 @@
+/* Imports */
+@font-face {
+  font-family: "ms gothic";
+  src: url("MS Gothic.ttf") format("truetype");
+}
+
+/* Important */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "ms gothic", sans-serif;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=125023), auto;
+}
+
+.pattern-cross-dots-lg {
+  background-color: white !important;
+  color: pink;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  background: grey;
+  color: black;
+}
+
+.pattern-diagonal-stripes-sm {
+  background-color: white !important;
+  color: #f7cde9;
+  border: 1px solid #a2a2a2;
+}
+
+.con2 {
+  color: rgb(65, 62, 62);
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border: 1px solid rgb(162, 162, 162);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #d67faa;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #d78dad;
+}
+
+.img-container {
+  border: 1px solid #f7cde2;
+  height: 300px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  background: #f7cde9;
+  background: -moz-linear-gradient(
+    0deg,
+    #f7cde9 0%,
+    rgba(254, 250, 252, 1) 32%,
+    rgba(254, 249, 251, 1) 69%,
+    #f7cde9 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    #f7cde9 0%,
+    rgba(254, 250, 252, 1) 32%,
+    rgba(254, 249, 251, 1) 69%,
+    #f7cde9 100%
+  );
+  background: linear-gradient(
+    0deg,
+    #f7cde9 0%,
+    rgba(254, 250, 252, 1) 32%,
+    rgba(254, 249, 251, 1) 69%,
+    #f7cde9 100%
+  );
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d78dad;
+  font-family: "ms gothic", sans-serif;
+  font-size: 1em;
+  color: #c82695;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=125029), auto;
+  /* http://www.rw-designer.com/cursor-detail/125029 */
+}
+
+button:hover,
+button:active {
+  background: -moz-linear-gradient(
+    0deg,
+    #fef9fb 0%,
+    #f7cde9 32%,
+    #f7cde9 69%,
+    #fef9fb 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    #fef9fb 0%,
+    #f7cde9 32%,
+    #f7cde9 69%,
+    #fef9fb 100%
+  );
+  background: linear-gradient(
+    0deg,
+    #fef9fb 0%,
+    #f7cde9 32%,
+    #f7cde9 69%,
+    #fef9fb 100%
+  );
+}
+
+.cat-fact {
+  width: 300px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+  .img-container {
+    height: 250px;
+  }
+  .container {
+    margin: 20px;
+  }
+}
