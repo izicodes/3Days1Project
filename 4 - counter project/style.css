@@ -1,0 +1,108 @@
+/* Imports */
+@font-face {
+  font-family: "ms gothic";
+  src: url("MS Gothic.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ms gothic", sans-serif;
+  text-align: center;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=114417), auto;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pattern-grid-md {
+  background-color: #ffdc00 !important;
+  color: white;
+}
+
+.content-wrapper {
+  background-color: white;
+  border: 1px solid rgb(123, 123, 123);
+  height: min-content;
+  color: black;
+  margin-top: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px #a89102;
+}
+
+img {
+  width: 100px;
+}
+
+.description {
+  width: 90%;
+}
+
+.counter-container {
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  gap: 27px;
+}
+
+button {
+  font-family: "ms gothic", sans-serif;
+  background-color: #ffdc00;
+  border: 1px solid rgb(123, 123, 123);
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 1.3em;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=114417), auto;
+}
+
+button:hover,
+button:active {
+  background-color: #e0c409;
+}
+
+.number {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .content-wrapper {
+    height: min-content;
+    margin-top: 0px;
+    width: 80%;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .wrapper {
+    align-items: center;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 5px 5px;
+  }
+  
+  .counter-container {
+    margin: 10px;
+  }
+}
