@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Noto+Sans+TC&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  
+  text-align: center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pattern-grid-md {
+  background-color: #e1a6c6 !important;
+  color: #e0d6d1 !important;
+}
+
+.popup-container {
+  width: 500px;
+  box-shadow: 0 0 5px #513f49b3;
+  border-radius: 10px;
+  color: #2e2c2a;
+  display: grid;
+}
+
+.header,
+.footer {
+  background-color: #e779b5;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border: 2px solid #2e2c2a;
+  font-weight: bold;
+}
+.header i {
+  background-color: rgb(247, 250, 253);
+  color: #2e2c2a;
+  padding: 4px;
+  text-align: center;
+  border: 2px solid #2e2c2a;
+  border-radius: 4px;
+}
+.header i:hover {
+  background-color: rgb(215, 223, 229);
+  cursor: pointer;
+}
+.header i:last-child {
+  padding: 4px 5px;
+}
+
+.body {
+  background-color: #fae7f1;
+  border-left: 2px solid #2e2c2a;
+  border-right: 2px solid #2e2c2a;
+  /*border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  display: grid;
+  height: 400px;
+}
+
+h1 {
+  padding: 20px 0;
+  border-bottom: 2px solid #928f8c;
+  font-size: 1.6em;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  padding-left: 25px;
+  font-family: "Bagel Fat One", cursive;
+}
+
+.list-container {
+  overflow: auto;
+}
+
+.list-container::-webkit-scrollbar {
+  width: 15px;
+}
+.list-container ul {
+  list-style: none;
+}
+
+.list-container li {
+  text-align: left;
+  padding: 20px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-container p {
+  width: 90%;
+}
+
+.list-container li:not(:last-child) {
+  border-bottom: 2px solid #928f8c;
+}
+
+.list-container::-webkit-scrollbar-track {
+  background: #e779b5;
+  border-left: 2px solid #2e2c2a;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background: white;
+  border: 2px solid #2e2c2a;
+  border-right: none;
+  border-radius: 8px;
+}
+
+.list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.toggle-container {
+  width: 50px;
+  height: fit-content;
+  background-color: #91e8e8;
+  border: 2px solid #2e2c2a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 25px;
+  text-decoration: line-through;
+}
+.circle {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #2e2c2a;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.footer {
+  border: 2px solid #2e2c2a;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer button {
+  background-color: rgb(247, 250, 253);
+  color: #2e2c2a;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  border: 2px solid #2e2c2a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.grayBtn {
+  background-color: #e4e1e1 !important;
+  cursor: not-allowed !important;
+}

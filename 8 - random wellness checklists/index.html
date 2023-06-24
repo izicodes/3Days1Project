@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>testing</title>
+  </head>
+  <body>
+    <div class="pattern-grid-md wrapper">
+      <div class="content-wrapper">
+        <div class="popup-container" data-checklist="Morning Routine">
+          <div class="header">
+            <p>Random Wellness Checklists</p>
+            <div>
+              <i class="fa-solid fa-window-minimize"></i>
+              <i class="fa-regular fa-window-maximize"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+          <div class="body">
+            <h1></h1>
+            <div class="list-container">
+              <ul></ul>
+            </div>
+          </div>
+          <div class="footer">
+            <button type="button" class="grayBtn" id="previousBtn" title="">
+              Previous
+            </button>
+            <button type="button" title="" id="nextBtn">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

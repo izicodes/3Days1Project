@@ -14,7 +14,7 @@ def ansToChar(userAns, character_list):
         chosenChar = character_list[random_number]
         getRandomQuote(chosenChar)
 
-data = pd.read_excel('trigun.xlsx')
+data = pd.read_excel('trigun.xlsx') 
 
 def getRandomQuote(char):
     filtered_data = data[data['Character'] == char]
