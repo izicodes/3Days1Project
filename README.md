@@ -7,7 +7,7 @@
 </p>
 
 <p align=justify>
-  The projects are in various programming languages, with a focus on JavaScript at the moment. You can find more details about my progress and thoughts on each project by visiting <a href="https://xiacodes.tumblr.com/tagged/3days1project" target="_blank">my blog</a>.
+  The projects are in various programming languages, with a focus on JavaScript at the moment. You can find more details about my progress and thoughts on each project by visiting <a href="https://izicodes.tumblr.com/tagged/3days1project" target="_blank">my blog</a>.
 </p>
 
 --------
@@ -26,6 +26,6 @@
   To view the projects and more information on them, visit the website I created for this challenge: <a href="https://xiacodes-3days1project.neocities.org/" target="_blank">link</a> 💻
 </p>
 
-Thank you for exploring my <a href="https://xiacodes.tumblr.com/tagged/3days1project" target="_blank">#3Days1Project Challenge</a>! Feel free to browse through the projects and witness the creative solutions I developed within a limited timeframe.
+Thank you for exploring my <a href="https://izicodes.tumblr.com/tagged/3days1project" target="_blank">#3Days1Project Challenge</a>! Feel free to browse through the projects and witness the creative solutions I developed within a limited timeframe.
 
 --------
